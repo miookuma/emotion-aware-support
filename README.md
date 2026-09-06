@@ -34,7 +34,7 @@ The task is to predict one of the original eight ESConv support strategies.
 
 ## Results
 
-![Model comparison](model_comparison.png)
+![Model comparison](results/model_comparison.png)
 
 Adding explicit emotion information did not improve the model enough to outperform the text baseline.
 
@@ -50,7 +50,7 @@ Support strategy depends not only on emotion, but also on conversational context
 
 The confusion matrices show that some strategies are substantially easier to distinguish than others.
 
-![Model C confusion matrix](confusion_matrix_c.png)
+![Model C confusion matrix](results/confusion_matrix_c.png)
 
 This suggests that improving emotional-support AI may require modeling conversational intent and dialogue context rather than relying primarily on emotion classification.
 
